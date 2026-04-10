@@ -1,10 +1,10 @@
-function sayHello(name) {
- return "Hello, " + name + "!";
+function startWeek(name) {
+ return "Monday, " + name + "!";
 }
 
-function sayGoodbye(name) {
- return "Goodbye, " + name + "!";
+function endWeek(name) {
+ return "Sunday, " + name + "!";
 }
 
-console.log(sayHello("Automation Tester"));
-console.log(sayGoodbye("Manual Testing"));
+console.log(startWeek("Monday is motivation"));
+console.log(endWeek("Every day is not Sunday"));
