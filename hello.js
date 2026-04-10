@@ -1,10 +1,10 @@
-function startWeek(name) {
- return "Monday, " + name + "!";
+function heyYou(name) {
+    if (name === 1) {
+        return "Hello, nice to meet you";
+    } else {
+        return "Goodbye, see you later";
+    }
 }
 
-function endWeek(name) {
- return "Sunday, " + name + "!";
-}
 
-console.log(startWeek("Monday is motivation"));
-console.log(endWeek("Every day is not Sunday"));
+console.log(heyYou("You are beautiful"));
